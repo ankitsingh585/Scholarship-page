@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(233, 218, 246);
+}
+.s-head{
+    font-family: 'Poppins', sans-serif;
+    color:  rgb(59, 59, 59);
+    font-size: 44px;
+    text-align: center;
+    margin-top: 3rem;
+}
+.s-head:hover{
+    color: black;
+}
+.s-content{
+    width: 55rem;
+    height: 25rem;
+    background-color:rgb(236, 232, 239);
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-left: 12rem;
+    box-shadow: 0  10px 10px rgb(54, 54, 54);
+    
+}
+.s-content-details{
+    font-family: 'Poppins', sans-serif;
+    color:  rgb(59, 59, 59);
+    padding-top: 3rem;
+    padding-left: 1rem;
+}
+.s-para-content-container{
+    width: 35rem;
+}
+.s-para-content{
+    font-family: 'Poppins', sans-serif;
+    color:  rgb(59, 59, 59);
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+.s-para-content:hover{
+    color: black;
+}
+.s-content-ammount{
+    font-family: 'Poppins', sans-serif;
+    color:  rgb(59, 59, 59);
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-size: 16px;
+}
+.s-content-ammount:hover{
+    color: black;
+}
+.s-img{
+    width: 25rem;
+    margin-left: 32rem;
+    margin-top: -25rem;
+}
+.s-container:hover{
+    animation-name: card-animation;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes card-animation{
+    100%{
+        transform: rotate(2deg);
+    }
+}
+
